@@ -4,7 +4,7 @@
 	* Interfaces
 	* `Comparator<T>`
 
-### Part 1 - Create method definitions for class `Item` definitions
+### Part 1 - Create method definitions for class `Item`
 * Write method definitions for `Item` class.
 * Ensure 100% success rate of each test class in `test.rocks.zipcode.io.item`
 
