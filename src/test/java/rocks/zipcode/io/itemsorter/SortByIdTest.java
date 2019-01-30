@@ -4,7 +4,8 @@ import org.junit.Assert;
 import org.junit.Test;
 import rocks.zipcode.io.Item;
 import rocks.zipcode.io.ItemSorter;
-import rocks.zipcode.io.comparators.NameComparator;
+import rocks.zipcode.io.comparators.IdComparator;
+import rocks.zipcode.io.comparators.IdComparator;
 
 import java.util.Comparator;
 
@@ -22,7 +23,7 @@ public class SortByIdTest {
         Item[] itemsToSort = {item2, item1, item3};
         Item[] expected = {item3, item2, item1};
         ItemSorter itemSorter = new ItemSorter(itemsToSort);
-        Comparator<Item> comparator = (Comparator<Item>) new NameComparator();
+        Comparator<Item> comparator = (Comparator<Item>) new IdComparator();
 
         // when
         Item[] actual = itemSorter.sort(comparator);
@@ -40,7 +41,7 @@ public class SortByIdTest {
         Item[] itemsToSort = {item2, item1, item3};
         Item[] expected = {item3, item2, item1};
         ItemSorter itemSorter = new ItemSorter(itemsToSort);
-        Comparator<Item> comparator = (Comparator<Item>) new NameComparator();
+        Comparator<Item> comparator = (Comparator<Item>) new IdComparator();
 
         // when
         Item[] actual = itemSorter.sort(comparator);
@@ -58,7 +59,7 @@ public class SortByIdTest {
         Item[] itemsToSort = {item2, item1, item3};
         Item[] expected = {item3, item2, item1};
         ItemSorter itemSorter = new ItemSorter(itemsToSort);
-        Comparator<Item> comparator = (Comparator<Item>) new NameComparator();
+        Comparator<Item> comparator = (Comparator<Item>) new IdComparator();
 
         // when
         Item[] actual = itemSorter.sort(comparator);
