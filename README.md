@@ -17,3 +17,7 @@
 # Part 3 - Create method definitions for class `ItemSorter`
 * Write method definitions for `ItemSorter`
 * Ensure 100% success rate of each test class in `test.rocks.zipcode.io.itemsorter`.
+
+# Part 4 - Write test cases for sorted by price
+* Using `SortByIdTest` and `SortByNameTest` as example classes, write test at least 3 cases for `SortByPriceTest`.
+* Verify with classmates that your tests are comprehensive, and covering the correct aspect of the program.
